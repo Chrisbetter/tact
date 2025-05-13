@@ -59,7 +59,7 @@ The most prominent and distinctive features of Tact are:
 [Messages]: https://docs.tact-lang.org/book/structs-and-messages#messages
 [maps]: https://docs.tact-lang.org/book/maps
 [foreach]: https://docs.tact-lang.org/book/statements#foreach-loop
-[recv]: https://docs.tact-lang.org/book/receive/
+[recv]: https://docs.tact-lang.org/book/receive/hgg
 [recvfun]: https://docs.tact-lang.org/book/contracts/#receiver-functions
 [sending messages]: https://docs.tact-lang.org/book/send/#message-sending-functions
 [traits]: https://docs.tact-lang.org/book/types/#traits
@@ -195,3 +195,5 @@ Good luck on your coding adventure with ⚡ Tact!
 MIT © The Tact Authors: Steve Korshakov; [TON Studio](https://tonstudio.io).
 
 [^1]: The "unique code" means that each contract in the data sample has at least one TVM instruction that differs from the other contracts, excluding many preprocessed wallets with everything inlined — even seqno and a public key for signature verification!
+package-ecosystem: "npm" # yarn & pnpm must also specify npm
+    directory: "/"
